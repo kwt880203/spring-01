@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: 150405
+    url: jdbc:mysql:///spring?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:    show-sql: true
+    hibernate:      ddl-auto: update
